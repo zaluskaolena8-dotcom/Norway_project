@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Норвегія — гармонія природи та спокою</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #f1f2ef, #e7ebe6);
+            color: #2f3a32;
+            line-height: 1.7;
+        }
+
+        .frame {
+            max-width: 1100px;
+            margin: 40px auto;
+            background-color: #fbfbfa;
+            border-radius: 26px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+            border: 2px solid #dfe5dc;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #cfd8c3, #e6ebe2);
+            padding: 55px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 2px;
+            color: #3c4a3f;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 12px;
+            color: #5b6a5f;
+        }
+
+        section {
+            padding: 45px;
+            max-width: 980px;
+            margin: auto;
+        }
+
+        section:not(:last-child) {
+            border-bottom: 1px solid #e1e6df;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #4a5a4d;
+            margin-bottom: 18px;
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            width: 90px;
+            height: 4px;
+            background: linear-gradient(90deg, #aab7a1, #d6ddd0);
+            display: block;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+
+        .info-box {
+            background-color: #f2f4f0;
+            border-left: 6px solid #aab7a1;
+            padding: 20px 25px;
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 22px;
+            margin-top: 25px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 22px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            margin-top: 25px;
+        }
+
+        .form-link {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #aab7a1, #d6ddd0);
+            color: #3c4a3f;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+            transition: all 0.3s ease;
+        }
+
+        .form-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+            background: linear-gradient(135deg, #9eab95, #cfd8c3);
+        }
+
+        footer {
+            background: linear-gradient(135deg, #cfd8c3, #e6ebe2);
+            text-align: center;
+            padding: 28px;
+            font-size: 16px;
+            color: #3c4a3f;
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+
+<header>
+    <h1>Норвегія</h1>
+    <p>Пастельна тиша фіордів і північного світла</p>
+</header>
+
+<section>
+    <h2>Загальна інформація</h2>
+    <div class="info-box">
+        <p>
+            Норвегія — скандинавська країна Північної Європи, відома своїми величними фіордами,
+            гірськими пейзажами та високим рівнем життя. Столиця країни — Осло.
+            Норвегія поєднує сучасність, турботу про природу та спокійний ритм життя.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Відео про Норвегію</h2>
+    <p>Атмосферне відео, яке передає природну гармонію та красу Норвегії:</p>
+    <video controls>
+        <source src="video/norway.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+    </video>
+</section>
+
+<section>
+    <h2>Фотогалерея</h2>
+    <div class="gallery">
+        <img src="images/fjord.jpg" alt="Фіорди Норвегії">
+        <img src="images/aurora.jpg" alt="Північне сяйво">
+        <img src="images/lofoten.jpg" alt="Лофотенські острови">
+        <img src="images/norway.jpg" alt="Норвегія">
+    </div>
+</section>
+
+<section>
+    <h2>Цікаві факти</h2>
+    <ul>
+        <li>Норвегія регулярно очолює рейтинги країн з найвищим рівнем щастя.</li>
+        <li>У країні понад 1000 фіордів.</li>
+        <li>Влітку за Полярним колом не заходить сонце.</li>
+        <li>Норвежці дуже цінують тишу, природу та особистий простір.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Опитування про Норвегію</h2>
+    <p>Натисни кнопку нижче, щоб перейти до опитування про Норвегію 🤍</p>
+    <a class="form-link" href="https://docs.google.com/forms/d/e/1FAIpQLScpOn78AKnkbn3kRSwzIhZU0Mh6-Haeq9XVgEuiYB6isGAzlA/viewform?usp=dialog" target="_blank">
+        Перейти до Google-форми
+    </a>
+</section>
+
+<footer>
+    <p>Навчальний проєкт з інформатики (HTML, CSS) | 10 клас</p>
+</footer>
+
+</div>
+</body>
+</html>
